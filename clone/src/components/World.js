@@ -1,12 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-gsap.registerPlugin(ScrollTrigger);
 
 const World = () => {
   return (
