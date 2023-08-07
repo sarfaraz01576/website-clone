@@ -17,10 +17,10 @@ gsap.registerPlugin(ScrollTrigger);
 function App() {
 
   return (
-    <div className="App">
-      <div class="wrapper">
+    <div className="App" style={{ height: "100%" }}>
+      <div className="wrapper">
         <Nav />
-        <div class="landing-ur-wrapper">
+        <div className="landing-ur-wrapper">
           <Home />
           <About />
           <Factions />

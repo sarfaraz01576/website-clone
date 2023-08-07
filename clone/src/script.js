@@ -103,7 +103,6 @@ $(document).ready(function () {
   })
     .from(".section-world .section-glows", { autoAlpha: 0 })
     .from(".section-world .landing-ur-kate", { x: -200 })
-    .from(".section-world .landing-ur-play-btn", { y: 200 })
     .from(".section-world h1", { y: 200 })
     .from(".section-world ul", { y: 200 }, "-=.3");
 

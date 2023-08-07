@@ -1,9 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 
 const Nav = () => {
   return (
-    <div className="wrapper">
+    // <div className="wrapper">
         <nav className="navbar navbar-expand-xl fixed-top navbar-dark p-0 align-items-stretch">
         <div className="landing-ur-logo-container d-none d-lg-block position-relative">
             <a href="www.urban-rivals.html" className="navbar-brand">
@@ -171,7 +172,7 @@ const Nav = () => {
             <i className="fal fa-bars fa-xl m-0 py-4 px-3"></i>
         </button>
         </nav>
-    </div>
+    // {/* </div> */}
   );
 };
 

@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Factions = () => {
   return (
-    <section id="factions" className="section-factions-slider position-relative">
+    <section id="factions" className="section-factions-slider position-relative" style={{ height: '100%', padding: '0 15px' }}>
         <div className="container container-xl">
             <div className="row">
                 <div className="landing-ur-slider-left col-lg-5 col-xl-3 title-col ps-lg-0 pe-lg-4 h-100 position-relative">

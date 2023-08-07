@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="ur-footer position-relative">
       <svg className="ur-footer-border position-absolute d-block">
-        <clippath id="ur-footer-bg" clippathunits="objectBoundingBox">
+        <clippath id="ur-footer-bg" clipPathUnits="objectBoundingBox">
           <path
             transform="scale(0.000456 0.0037)"
             d="M2190.53 279.561H.885V1.776l477.941 4.479 16.735 6.179-2.662-7.222 501.306-2.846-2.075 11.631L1002.34.562l75.19 3.024 4.79 15.625 3.56-17.435 477.95 4.479 16.73 6.179-2.66-7.222 501.3-2.846-2.07 11.631L2087.34.562l103.19 3.024v275.975Z"
